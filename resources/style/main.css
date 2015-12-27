@@ -1,0 +1,33 @@
+body { 
+  background: url(../images/bckgrnd.jpg) no-repeat center center fixed; 
+  background-color: #fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+html, body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+
+.content{
+	background-color: #fff;
+}
+
+  .affix {
+      top: 20px;
+  }
+  
+  .nav{
+    background-color: #fff;
+  }
+  
+  .header{
+    opacity: 0.7;
+  }
+
+p, h1, h2{
+    opacity: 1.0;
+  }
