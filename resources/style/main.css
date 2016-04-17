@@ -20,6 +20,13 @@ nav {
     z-index: 0;
 }
 
+.footer{
+    background-color: #fff;
+    border-top-style: solid;
+    text-align: center;
+    color: darkgray;
+}
+
 .affix {
     top: 0;
     width: 100%;
