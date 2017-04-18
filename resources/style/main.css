@@ -12,9 +12,19 @@ html, body {
   overflow-x: hidden !important;
 }
 
+nav {
+    z-index: 1;
+}
 .content{
 	background-color: #fff;
-    z-index: -1;
+    z-index: 0;
+}
+
+.footer{
+    background-color: #fff;
+    border-top-style: solid;
+    text-align: center;
+    color: darkgray;
 }
 
 .affix {

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+    <div id="nav">
+        <a href="#" onclick='sayHello("testContent"); return false;'>Click to say hello</a>
+    </div>
+    <div id="content">
+    </div>
+    <script src="resources/js/jquery-1.11.3.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            });
+            
+            function sayHello(page){
+                console.log(page);
+                console.log("Hello text");
+                $.get("content/" + page + ".html", 
+                    function(data){
+                        console.log("this is working like shit.");
+                        $("#content").html(data);
+                    });
+            }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="resources/style/bootstrap.min.css" rel="stylesheet">
+	<link href="resources/style/main.css" rel="stylesheet">
+	<link rel="shortcut icon" href="resources/siteimg/home.ico">
+	<title>Irmiev :: Home</title>
+
+</head>
+
+<body>
+
+	<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
+		<ul class="nav navbar-nav">
+			<li class="active"><a href="#">Irmiev</a></li>
+			<li><a href="#" onclick='getContent("testContent"); return false;'>Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#" onclick='getContent("faqu"); return false;'>F.A.Q.</a></li>
+		</ul>
+	</nav>
+
+	<div class="row container-fluid">
+		<div class="col-md-3 ">
+		</div>
+		<div class="col-md-6 content">
+
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+        What am I looking at?</a>
+      </h4>
+    </div>
+    <div id="collapse1" class="panel-collapse collapse in">
+      <div class="panel-body">
+		  <p>This is a protfolio website for myself. As you can see it is still under developlment.</p>
+	  </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+        What is wrong with the design of this site?</a>
+      </h4>
+    </div>
+    <div id="collapse2" class="panel-collapse collapse">
+      <div class="panel-body">
+		  <p>
+			  I am not a designer. I have a horrible tast for colours and desing so I stick to 
+			  the engineering part.
+		  </p>
+	  </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+        What is the background image of?</a>
+      </h4>
+    </div>
+    <div id="collapse3" class="panel-collapse collapse">
+      <div class="panel-body">
+		  <p>An alley next to the river Irwell as it aproaches Salford Quays.</p>
+		  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d243.90405661217008!2d-2.271123535174667!3d53.470682737358786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2suk!4v1460923253802" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	  </div>
+    </div>
+  </div>
+</div> 
+		</div>
+	</div>
+	<div class="row footer">
+		<div class="col-md-2">
+		</div>
+		<div class="col-md-8">
+			<p>irmiev@gmail.com</p>
+		</div>
+		<div class="col-md-2">
+		</div>
+	</div>
+	<script src="resources/js/jquery-1.11.3.min.js"></script>
+	<script src="resources/js/bootstrap.min.js"></script>
+	<script src="resources/js/contentLoader.js"></script>
+</body>
+
+</html>
